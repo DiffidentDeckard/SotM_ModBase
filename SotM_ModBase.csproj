@@ -4,4 +4,9 @@
     <TargetFramework>net35</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EngineCommon" Version="1.0.7615.24151" />
+    <PackageReference Include="SentinelsEngine" Version="1.0.0" />
+  </ItemGroup>
+
 </Project>
