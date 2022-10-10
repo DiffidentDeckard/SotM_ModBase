@@ -1,0 +1,72 @@
+{
+  "name": "Test Villain",
+  "kind": "Villain",
+  "initialCardIdentifiers": [
+    "TestVillainCharacter"
+  ],
+  "cards": [
+    {
+      "identifier": "TestVillainCharacter",
+      "title": "Test Villain",
+      "count": 1,
+      "body": "Test Villain Body",
+      "icons": [ "WinTheGame" ],
+      "character": true,
+      "backgroundColor": "D99FC5",
+      "setup": [ "Test Villain Setup" ],
+      "gameplay": [ "Test Villain Gameplay" ],
+      "flippedIcons": [ "WinTheGame" ],
+      "difficulty": 1,
+      "advanced": "Test Villain Advanced",
+      "advancedIcons": [ "WinTheGame" ],
+      "flippedBody": "Test Villain Flipped Body",
+      "flippedGameplay": [ "Test Villain Flipped Gameplay" ],
+      "flippedAdvanced": "Test Villain Flipped Advanced",
+      "flippedAdvancedIcons": [ "WinTheGame" ],
+      "keywords": [ "villain" ],
+      "hitpoints": 42,
+      "nemesisIdentifiers": [ "" ],
+      "openingLines": {
+        "default": "Test Villain Default Opening Line"
+      },
+      "flippedHitpoints": 69
+    },
+    {
+      "identifier": "TestVillainTarget",
+      "title": "Test Villain Target",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test" ],
+      "hitpoints": 10,
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestVillainOngoing",
+      "title": "Test Villain Ongoing",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "ongoing" ],
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestVillainEquipment",
+      "title": "Test Villain Equipment",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "equipment" ],
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestVillainOneShot",
+      "title": "Test Villain One-Shot",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "one-shot" ],
+      "flavorText": "flavor text"
+    }
+  ]
+}

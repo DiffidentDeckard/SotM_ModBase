@@ -1,0 +1,71 @@
+{
+  "name": "Test Hero 3",
+  "kind": "Hero",
+  "initialCardIdentifiers": [ "TestHero3Character" ],
+  "cards": [
+    {
+      "identifier": "TestHero3Character",
+      "title": "Test Hero 3",
+      "count": 1,
+      "body": "Test Hero 3 Power",
+      "icons": [ "HasPower" ],
+      "character": true,
+      "backgroundColor": "fbf8f9",
+      "complexity": 1,
+      "powers": [ "Not Yet Implemented" ],
+      "incapacitatedAbilities": [
+        "One player may play a card.",
+        "One hero may use a power.",
+        "One player may draw a card."
+      ],
+      "hitpoints": 15,
+      "nemesisIdentifiers": [ "" ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "openingLines": {
+        "default": "Test Hero 3 Default Opening Line"
+      },
+      "hitpointsColor": "C94742"
+    },
+    {
+      "identifier": "TestHero3Target",
+      "title": "Test Hero 3 Target",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test" ],
+      "hitpoints": 10,
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestHero3Ongoing",
+      "title": "Test Hero 3 Ongoing",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "ongoing" ],
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestHero3Equipment",
+      "title": "Test Hero 3 Equipment",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "equipment" ],
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestHero3OneShot",
+      "title": "Test Hero 3 One-Shot",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "one-shot" ],
+      "flavorText": "flavor text"
+    }
+  ]
+}

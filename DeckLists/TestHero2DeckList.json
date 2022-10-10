@@ -1,0 +1,71 @@
+{
+  "name": "Test Hero 2",
+  "kind": "Hero",
+  "initialCardIdentifiers": [ "TestHero2Character" ],
+  "cards": [
+    {
+      "identifier": "TestHero2Character",
+      "title": "Test Hero 2",
+      "count": 1,
+      "body": "Test Hero 2 Power",
+      "icons": [ "HasPower" ],
+      "character": true,
+      "backgroundColor": "fbf8f9",
+      "complexity": 1,
+      "powers": [ "Not Yet Implemented" ],
+      "incapacitatedAbilities": [
+        "One player may play a card.",
+        "One hero may use a power.",
+        "One player may draw a card."
+      ],
+      "hitpoints": 30,
+      "nemesisIdentifiers": [ "" ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "openingLines": {
+        "default": "Test Hero 2 Default Opening Line"
+      },
+      "hitpointsColor": "C94742"
+    },
+    {
+      "identifier": "TestHero2Target",
+      "title": "Test Hero 2 Target",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test" ],
+      "hitpoints": 10,
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestHero2Ongoing",
+      "title": "Test Hero 2 Ongoing",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "ongoing" ],
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestHero2Equipment",
+      "title": "Test Hero 2 Equipment",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "equipment" ],
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestHero2OneShot",
+      "title": "Test Hero 2 One-Shot",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "one-shot" ],
+      "flavorText": "flavor text"
+    }
+  ]
+}

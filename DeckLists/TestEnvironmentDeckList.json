@@ -1,0 +1,44 @@
+{
+  "name": "TestEnvironment",
+  "kind": "Environment",
+  "difficulty": 1,
+  "cards": [
+    {
+      "identifier": "TestEnvironmentTarget",
+      "title": "Test Environment Target",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test" ],
+      "hitpoints": 10,
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestEnvironmentOngoing",
+      "title": "Test Environment Ongoing",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "ongoing" ],
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestEnvironmentEquipment",
+      "title": "Test Environment Equipment",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "equipment" ],
+      "flavorText": "flavor text"
+    },
+    {
+      "identifier": "TestEnvironmentOneShot",
+      "title": "Test Environment One-Shot",
+      "count": 3,
+      "body": "Not Yet Implemeted",
+      "icons": [ "PlayCardNow" ],
+      "keywords": [ "test", "one-shot" ],
+      "flavorText": "flavor text"
+    }
+  ]
+}
