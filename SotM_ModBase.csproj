@@ -2,11 +2,42 @@
 
   <PropertyGroup>
     <TargetFramework>net35</TargetFramework>
+    <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
+    <ApplicationIcon>Deckard.ico</ApplicationIcon>
+    <Title>$(AssemblyName)</Title>
+    <Authors>DiffidentDeckard</Authors>
+    <Company>$(Authors)</Company>
+    <Description>Mod base for Sentinels of the Multiverse Digital on Steam.
+This is used as a starting-point to help create your own mod that you can use to create custom Heroes, Villains, and Environments.
+There is also additional support for unit tests for those custom additions, that builds on the sample mod provided by Handelabra.</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageIcon>Deckard.png</PackageIcon>
+    <RepositoryUrl>https://github.com/DiffidentDeckard/SotM_ModBase</RepositoryUrl>
+    <PackageTags>SentinelsOfTheMultiverse;Sentinels;Multiverse;SotM;Base;Mod;Workshop;Sample;Steam;</PackageTags>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Deckard.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="EngineCommon" Version="1.0.7615.24151" />
     <PackageReference Include="SentinelsEngine" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Deckard.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
