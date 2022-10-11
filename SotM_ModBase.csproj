@@ -14,6 +14,7 @@ There is also additional support for unit tests for those custom additions, that
     <PackageIcon>Deckard.png</PackageIcon>
     <RepositoryUrl>https://github.com/DiffidentDeckard/SotM_ModBase</RepositoryUrl>
     <PackageTags>SentinelsOfTheMultiverse;Sentinels;Multiverse;SotM;Base;Mod;Workshop;Sample;Steam;</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -30,11 +31,17 @@ There is also additional support for unit tests for those custom additions, that
 
   <ItemGroup>
     <PackageReference Include="EngineCommon" Version="1.0.7615.24151" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
     <PackageReference Include="SentinelsEngine" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="Deckard.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

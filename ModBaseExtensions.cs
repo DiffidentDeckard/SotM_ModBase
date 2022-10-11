@@ -4,12 +4,12 @@ using System.Linq;
 using Handelabra.Sentinels.Engine.Controller;
 using Handelabra.Sentinels.Engine.Model;
 
-namespace DeckardBaseMod
+namespace SotM_ModBase
 {
     /// <summary>
     /// Extensions to make repeated code simpler
     /// </summary>
-    public static class DbmExtensions
+    public static class ModBaseExtensions
     {
         /// <summary>
         /// Gets all the keywords that this card currently has.

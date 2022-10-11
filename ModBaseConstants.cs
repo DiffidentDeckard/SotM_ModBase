@@ -1,6 +1,6 @@
-﻿namespace DeckardBaseMod
+﻿namespace SotM_ModBase
 {
-    public static class DbmConstants
+    public static class ModBaseConstants
     {
         // Card Properties
         public const string HasBeenInPlayAtLeastATurn = nameof(HasBeenInPlayAtLeastATurn);
@@ -10,7 +10,7 @@
     public static class TestHero1Constants
     {
         // Main
-        public static string Deck = $"{nameof(DeckardBaseMod)}.{Hero}";
+        public static string Deck = $"{nameof(SotM_ModBase)}.{Hero}";
         public const string Hero = "TestHero1";
 
         // Cards
@@ -23,7 +23,7 @@
     public static class TestHero2Constants
     {
         // Main
-        public static string Deck = $"{nameof(DeckardBaseMod)}.{Hero}";
+        public static string Deck = $"{nameof(SotM_ModBase)}.{Hero}";
         public const string Hero = "TestHero2";
 
         // Cards
@@ -36,7 +36,7 @@
     public static class TestHero3Constants
     {
         // Main
-        public static string Deck = $"{nameof(DeckardBaseMod)}.{Hero}";
+        public static string Deck = $"{nameof(SotM_ModBase)}.{Hero}";
         public const string Hero = "TestHero3";
 
         // Cards
@@ -49,7 +49,7 @@
     public static class TestVillainConstants
     {
         // Main
-        public static string Deck = $"{nameof(DeckardBaseMod)}.{Villain}";
+        public static string Deck = $"{nameof(SotM_ModBase)}.{Villain}";
         public const string Villain = "TestVillain";
 
         // Cards
@@ -62,7 +62,7 @@
     public static class TestEnvironmentConstants
     {
         // Main
-        public static string Deck = $"{nameof(DeckardBaseMod)}.{Environment}";
+        public static string Deck = $"{nameof(SotM_ModBase)}.{Environment}";
         public const string Environment = "TestEnvironment";
 
         // Cards

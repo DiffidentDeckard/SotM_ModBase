@@ -1,7 +1,7 @@
 ﻿using Handelabra.Sentinels.Engine.Controller;
 using Handelabra.Sentinels.Engine.Model;
 
-namespace DeckardBaseMod.TestHero2
+namespace SotM_ModBase.TestHero2
 {
     public class TestHero2OneShotCardController : CardController
     {
